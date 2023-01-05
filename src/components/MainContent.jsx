@@ -1,6 +1,10 @@
+import '../styles/components/mainContent.sass';
+
 const MainContent = () => {
   return (
-    <div>MainContent</div>
+    <main id='main-content'>
+      Main Content
+    </main>
   )
 }
 

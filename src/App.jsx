@@ -5,11 +5,11 @@ import './styles/components/app.sass';
 
 function App() {
   return (
-    <main id="portfolio">
+    <section id="portfolio">
       <h1>Philip Lages</h1>
       <Sidebar />
       <MainContent />
-    </main>
+    </section>
   )
 };
 
