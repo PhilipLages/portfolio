@@ -1,4 +1,5 @@
 import SocialNetworks from './SocialNetworks';
+import InformatiobContainer from './InformationContainer';
 import Avatar from '../img/me.jpg'
 
 import '../styles/components/sidebar.sass';
@@ -9,7 +10,7 @@ const Sidebar = () => {
       <img src={ Avatar } alt="Philip Lages" />
       <p className="title">Desenvolvedor</p>
       <SocialNetworks />
-      <p>Contato</p>
+      <InformatiobContainer />
       <a href="" className="btn">
         baixar currículo
       </a>
