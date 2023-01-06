@@ -21,7 +21,6 @@ const technologies = [
   { id: "mysql", name: "MySQL", icon: <DiMysql /> },
   { id: "postgresql", name: "PostgreSQL", icon: <DiPostgresql /> },
   { id: "jest", name: "Jest", icon: <SiJest /> }
-
 ];
 
 const TechnologiesContainer = () => {
