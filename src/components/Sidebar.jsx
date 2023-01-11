@@ -5,7 +5,7 @@ import Avatar from '../img/me.jpg'
 import '../styles/components/sidebar.sass';
 
 const Sidebar = () => {
-  const cvUrl = "https://1drv.ms/b/s!Ao9AkE6EH0S_gYFJemXqjy5h6kg5nw?e=VxZcaf";
+  const cvUrl = "https://1drv.ms/b/s!Ao9AkE6EH0S_gYFP_K1KMgqsLtntAQ?e=GKjyw2";
 
   return (
     <aside id="sidebar">

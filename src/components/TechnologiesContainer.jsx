@@ -7,7 +7,12 @@ import {
   DiMysql,
   DiPostgresql,
 } from 'react-icons/di';
-import { SiTypescript, SiJest } from 'react-icons/si'
+import { 
+  SiTypescript, 
+  SiJest, 
+  SiDocker, 
+  SiRedux 
+} from 'react-icons/si'
 
 import '../styles/components/technologiesContainer.sass';
 
@@ -15,8 +20,10 @@ const technologies = [
   { id: "html", name: "HTML5", icon: <DiHtml5 /> },
   { id: "css", name: "CSS3", icon: <DiCss3 /> },
   { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
-  { id: "ts", name: "TypeScript", icon: <SiTypescript /> },
   { id: "react", name: "React", icon: <DiReact /> },
+  { id: "redux", name: "Redux", icon: <SiRedux />},
+  { id: "ts", name: "TypeScript", icon: <SiTypescript /> },
+  { id:"docker" , name: "Docker", icon: <SiDocker /> },
   { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
   { id: "mysql", name: "MySQL", icon: <DiMysql /> },
   { id: "postgresql", name: "PostgreSQL", icon: <DiPostgresql /> },
